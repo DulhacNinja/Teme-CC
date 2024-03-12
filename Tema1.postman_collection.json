@@ -1,0 +1,620 @@
+{
+	"info": {
+		"_postman_id": "e32ae2ce-e4dc-41e7-8f37-ce67e7b1159b",
+		"name": "Tema1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33459277"
+	},
+	"item": [
+		{
+			"name": "POST MULTIPLE localhost:5000/students",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Dulhac\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    },\r\n        {\r\n        \"first_name\":\"Mihneaalsjkasjlkdalk\",\r\n        \"last_name\":\"Pipirig\",\r\n        \"email\":\"rarespipirig@gmail.com\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Mihail\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    },\r\n        {\r\n        \"first_name\":\"Mihneaalsjkasjlkdalk\",\r\n        \"last_name\":\"XDDDDDDDDDDDDDDDDDD\",\r\n        \"email\":\"rarespipirig@gmail.com\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Dulhac\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    },\r\n        {\r\n        \"first_name\":\"Mihneaalsjkasjlkdalk\",\r\n        \"last_name\":\"Pipirig\",\r\n        \"email\":\"rarespipirig@gmail.com\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Dulhac\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    },\r\n        {\r\n        \"first_name\":\"Mihneaalsjkasjlkdalk\",\r\n        \"last_name\":\"Pipirig\",\r\n        \"email\":\"rarespipirig@gmail.com\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Dulhac\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    },\r\n        {\r\n        \"first_name\":\"Mihneaalsjkasjlkdalk\",\r\n        \"last_name\":\"Pipirig\",\r\n        \"email\":\"rarespipirig@gmail.com\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Dulhac\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    },\r\n        {\r\n        \"first_name\":\"Mihneaalsjkasjlkdalk\",\r\n        \"last_name\":\"Pipirig\",\r\n        \"email\":\"rarespipirig@gmail.com\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\":\"SEBASTIAN\",\r\n    \"last_name\":\"Dulhac\",\r\n    \"email\":\"alexdulhac@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Dulhac\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    },\r\n        {\r\n        \"first_name\":\"Mihneaalsjkasjlkdalk\",\r\n        \"last_name\":\"Pipirig\",\r\n        \"email\":\"rarespipirig@gmail.com\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/2",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Dulhac\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/1/grades",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"1",
+						"grades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"subject\":\"XDDDDD\",\r\n        \"value\":4\r\n    },\r\n        {\r\n        \"subject\":\"Engliush\",\r\n        \"value\":90\r\n    },\r\n        {\r\n        \"subject\":\"Romanish\",\r\n        \"value\":7.8\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/1/grades",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"1",
+						"grades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"subject\":\"XDDDDD\",\r\n        \"value\":4\r\n    },\r\n        {\r\n        \"subject\":\"Engliush\",\r\n        \"value\":90\r\n    },\r\n        {\r\n        \"subject\":\"Romanish\",\r\n        \"value\":7.8\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/1/grades",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"1",
+						"grades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"first_name\":\"andrei\",\r\n        \"last_name\":\"Dulhac\",\r\n        \"email\":\"alexdulhac@gmail.com\"\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/students/1/grades",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"1",
+						"grades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/grades",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[    \r\n    {\r\n        \"id_student\":\"4\",\r\n        \"subject\":\"XDDDDD\",\r\n        \"value\":4\r\n    },\r\n        {\r\n        \"id_student\":\"5\",\r\n        \"subject\":\"Engliush\",\r\n        \"value\":90\r\n    },\r\n        {\r\n        \"id_student\":\"6\",\r\n        \"subject\":\"Romanish\",\r\n        \"value\":7.8\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/grades",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/grades",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MULTIPLE localhost:5000/students Copy 2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/grades",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/grades/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/grades/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/grades/1 Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/grades/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/grades/1 Copy 2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"id\": 4,\r\n        \"id_student\": 3,\r\n        \"subject\": \"Sports\",\r\n        \"value\": 6.5\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/grades/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/grades/1 Copy 3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"id\": 4,\r\n        \"id_student\": 3,\r\n        \"subject\": \"Sports\",\r\n        \"value\": 6.5\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/grades/2",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BAD REQUESTS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"id\": 4,\r\n        \"id_student\": 3,\r\n        \"subject\": \"Sports\",\r\n        \"value\": 6.5\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/grades/aajakjdak",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades",
+						"aajakjdak"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BAD REQUESTS Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"id\": 4,\r\n        \"id_student\": 3,\r\n        \"subject\": \"Sports\",\r\n        \"value\": 6.5\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/grades/aajakjdak",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"grades",
+						"aajakjdak"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
